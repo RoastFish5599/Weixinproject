@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/main/main",
+    "pages/user/user",
+    "pages/show/show",
+    "pages/music/music"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "1296db",
+    "selectedColor": "#1296db",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/icon/音乐.png",
+        "selectedIconPath": "pages/icon/音乐.png",
+        "text": "音乐"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "pages/icon/地图.png",
+        "selectedIconPath": "pages/icon/地图.png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/show/show",
+        "iconPath": "pages/icon/EC.png",
+        "selectedIconPath": "pages/icon/EC.png",
+        "text": "动画"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "pages/icon/用户.png",
+        "selectedIconPath": "pages/icon/用户.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

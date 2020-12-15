@@ -1,0 +1,17 @@
+<!--pages/music/music.wxml-->
+<view class="music">
+  <view class="music-msg">
+    <view class="msg-name">{{name}}</view>
+    <view class="msg-author">{{author}}</view>
+  </view>
+  <view class="buttons">
+    <image class="button" src="../icon/左.png" bindtap="lastMusic" style="left:0;top:30rpx;"></image>
+    <image class="button" src="../icon/music.png" bindtap="stopMusic" style="left:45%;width:100rpx;height:100rpx;"></image>
+    <image class="button" src="../icon/右.png" bindtap="nextMusic" style="right:0;top:30rpx;"></image>
+  </view>
+  <view class="opr">
+    <view class="share" bindtap="shareMusic">分享</view>
+    <view style="position:absolute;left:50%;">|</view>
+    <view class="love" bindtap="loveMusic">收藏</view>
+  </view>
+</view>

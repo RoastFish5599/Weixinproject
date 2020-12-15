@@ -1,0 +1,15 @@
+/* pages/show/show.wxss */
+.container{
+  padding-top:0;
+  padding-bottom:0;
+}
+.chart{
+  width: 90%;
+  height: 240px;
+  margin: 0 auto;
+}
+#mychart{
+  width: 90%;
+  height: 240px;
+  margin: 0 auto;
+}
